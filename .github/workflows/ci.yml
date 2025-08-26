@@ -15,19 +15,34 @@ jobs:
       - name: Run a one-line script
         run: echo "✅ Build successful! CI/CD workflow is working."
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 name: CI Pipeline
 on:
+=======
+
+name: CI Pipeline
+
+on: 
+>>>>>>> d82bde5137a93cc964520d13d5d286e464991e5e
   push:
     branches: ["main"]
 
 jobs:
   build:
+<<<<<<< HEAD
     runs-on: ubuntu-latest
+=======
+    runs-on: ubuntu latest
+>>>>>>> d82bde5137a93cc964520d13d5d286e464991e5e
     steps:
       - uses: actions/checkout@v3
       - name: Run Hello World
         run: echo "Build Successful! CI Pipeline is working"
+<<<<<<< HEAD
 
 =======
 >>>>>>> 17cf41d6a79650d7426d05ffe66dc76e27c31aca
+=======
+        
+>>>>>>> d82bde5137a93cc964520d13d5d286e464991e5e
