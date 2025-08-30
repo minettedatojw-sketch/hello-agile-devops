@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo "✅ Build successful! CI/CD workflow is working."
+<<<<<<< HEAD
+
+name: CI Pipeline
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Hello World
+        run: echo "Build Successful! CI Pipeline is working"
+
+=======
+>>>>>>> 17cf41d6a79650d7426d05ffe66dc76e27c31aca
